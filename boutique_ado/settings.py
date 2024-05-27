@@ -29,7 +29,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['8000-osaroo3-boutiqueadowtp-srrmbyhenl4.ws-eu114.gitpod.io', '.herokuapp.com']
 
@@ -199,7 +199,7 @@ if 'USE_AWS' in os.environ:
         'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
         'CacheControl': 'max-age=94608000',
     }
-        
+
     # Bucket Config
     AWS_STORAGE_BUCKET_NAME = 'boutiqueado-wtp'
     AWS_S3_REGION_NAME = 'eu-north-1'
