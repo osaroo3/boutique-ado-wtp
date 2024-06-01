@@ -1,0 +1,4 @@
+User-agent: *
+Disallowed: /accounts/
+Disallowed: /bag/
+Sitemap: https://boutiqueado-wtp-2ab5aaa533af.herokuapp.com/sitemap.xml
